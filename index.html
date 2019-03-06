@@ -39,6 +39,17 @@
 				-webkit-transform:scale(1.5); /* or some other value */
 				transform:scale(1.5);
 			}
+			
+			.menu {
+				background-color: #159957;
+				//background-image: linear-gradient(120deg, #155799, #159957);
+				padding:5px; 
+				border-radius:5px;
+			}
+			
+			.menu a {
+				color:white;
+			}
 		</style>
 		
 	</head>
@@ -50,7 +61,7 @@
 		<header class="page-header" role="banner">
 		
 		  <h1 class="project-name">CATSystem Project Blog</h1>
-		  <h2 class="project-tagline">CATSystem - Cancer Tracking System</h2>
+		  <h1 class="project-tagline" style="">CATSystem - Cancer Tracking System</h1>
 		  
 			<a href="https://koyowe.github.io/catsystem" target="blank" class="btn">View Project Demo</a>
 		  
@@ -58,7 +69,12 @@
 		</header>
 
 		<main id="content" class="main-content" role="main">
-
+			<div>
+				<span class="menu"><a href="index.html">Home</a></span> | 
+				<span  class="menu"><a href="feb19.html">February</a></span> | 
+				<span  class="menu" style="background-color:#155799"><a href="index.html">March</a></span>
+			</div>
+			<hr>
 			<h3 id="header-3">Mar 4, 2019 - Show when offline</h3>
 			<p>
 				Added a new function to indicate "You are offline" at the login screen when the system is accessed without Internet access.
@@ -119,13 +135,13 @@
 			<hr>
 			
 			<div style="background-color:#f3f6fa; text-align:center; padding:10px; font-size:14px">
-				<a href="">View Previous Posts</a>
+				
 			</div>
 
 
 			<footer class="site-footer">
         
-				<span class="site-footer-owner" style="font-size:14px;text-align:center"><a href="#">CATSystem Project Blog</a> is maintained by <a href="https://koyowe.github.io" target="blank">Kevin Oyowe</a> at The University of Kansas Medical Center - KUMC.</span>
+				<span class="site-footer-owner" style="font-size:14px;text-align:center"><a href="#">CATSystem Project Blog</a> is maintained by <a href="https://koyowe.github.io" target="blank">Kevin Oyowe</a>.</span>
         
 				<span class="site-footer-credits">
 					
